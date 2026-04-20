@@ -17,7 +17,6 @@ void AMyLivingOrganismSpawner::BeginPlay()
 {
 	Super::BeginPlay();
 	GetWorldTimerManager().SetTimer(SpawnHandle, this, &AMyLivingOrganismSpawner::SpawnLivingOrganism, SpawnDelay, true);
-	
 }
 
 void AMyLivingOrganismSpawner::SpawnLivingOrganism()

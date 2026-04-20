@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "DamageInterface.h"
 #include "LivingOrganism.h"
 #include "Alien.generated.h"
 
@@ -15,7 +16,7 @@ class UArrowComponent;
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAlienGooEvent, bool, isGoo, float, gooSpeed);
 
 UCLASS()
-class ALIENVPREDATOR_API AAlien : public ALivingOrganism
+class ALIENVPREDATOR_API AAlien : public ALivingOrganism, public IDamageInterface
 {
 	GENERATED_BODY()
 
@@ -43,6 +44,8 @@ protected:
 
 	UFUNCTION(BlueprintNativeEvent)
 	void OnAlienHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
+	
+	
 
 private:
 
