@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AlienVPredator.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AlienVPredator.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AlienVPredatorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AlienVPredator">
+      <UniqueIdentifier>{8BCB309B-2E63-3C4D-842E-502666B20A91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AlienVPredator\AlienVPredator.Build.cs">
+      <Filter>Source\AlienVPredator</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AlienVPredator\AlienVPredator.cpp">
+      <Filter>Source\AlienVPredator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AlienVPredator\AlienVPredator.h">
+      <Filter>Source\AlienVPredator</Filter>
+    </ClInclude>
+    <Filter Include="Source\AlienVPredator\Private">
+      <UniqueIdentifier>{CA42A125-88CF-3E4B-91E3-0C5503E8A8B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AlienVPredator\Private\Alien.cpp">
+      <Filter>Source\AlienVPredator\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AlienVPredator\Private\DamageInterface.cpp">
+      <Filter>Source\AlienVPredator\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AlienVPredator\Private\LivingOrganism.cpp">
+      <Filter>Source\AlienVPredator\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AlienVPredator\Private\MyLivingOrganismSpawner.cpp">
+      <Filter>Source\AlienVPredator\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AlienVPredator\Private\Predator.cpp">
+      <Filter>Source\AlienVPredator\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\AlienVPredator\Public">
+      <UniqueIdentifier>{5A337103-EF2D-336D-BB1D-D2DC2117C7AC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\AlienVPredator\Public\Alien.h">
+      <Filter>Source\AlienVPredator\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AlienVPredator\Public\DamageInterface.h">
+      <Filter>Source\AlienVPredator\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AlienVPredator\Public\LivingOrganism.h">
+      <Filter>Source\AlienVPredator\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AlienVPredator\Public\MyLivingOrganismSpawner.h">
+      <Filter>Source\AlienVPredator\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AlienVPredator\Public\Predator.h">
+      <Filter>Source\AlienVPredator\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

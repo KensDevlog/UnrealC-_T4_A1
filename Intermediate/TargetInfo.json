@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AlienVPredator",
+			"Path": "..\\Source\\AlienVPredator.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AlienVPredatorEditor",
+			"Path": "..\\Source\\AlienVPredatorEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
